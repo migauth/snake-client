@@ -14,6 +14,22 @@ const connect = function () {
     console.log("Server says: ", data);
   })
 
+  conn.on("connect", () => {
+    console.log("Succesfully connected to the server!");
+  })
+
+  conn.on("connect", () =>{
+    conn.write("Name: MAG");  
+    // setInterval(function() {
+    //     conn.write("Move: up");
+    //   }, 500)
+  })
+
+  
+  
+  
+
+
   return conn;
 };
 
