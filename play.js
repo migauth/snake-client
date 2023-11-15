@@ -1,12 +1,9 @@
+// Import connect function
 const { connect } = require('./client')
+
+// Improt setupInput function
 const { setupInput } = require("./input")
 
-// setup interface to handle user input from stdin
-
-
-
 console.log("Connecting ...");
-
-
 
 setupInput(connect());

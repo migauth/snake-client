@@ -16,15 +16,19 @@ const handleUserInput = function (key) {
   }
   if (key === '\u0077') {
     connection.write("Move: up")
+    console.log("Snake moved up!");
   }
   if (key === '\u0061') {
     connection.write("Move: left")
+    console.log("Snake moved left!");
   }
   if (key === '\u0073') {
     connection.write("Move: down")
+    console.log("Snake moved down!");
   }
   if (key === '\u0064') {
     connection.write("Move: right")
+    console.log("Snake moved right!");
   }
   if (key === '\u007A') {
     connection.write("Say: You're going down!")
