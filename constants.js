@@ -9,8 +9,6 @@ const PRESS_Z = "Say: You're going down!";
 const PRESS_X = "Say: Eat dust.";
 const PRESS_C = "Say: Get outta here!";
 
-
-
 module.exports = {
   IP,
   PORT,
