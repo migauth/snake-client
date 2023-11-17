@@ -8,8 +8,8 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["screenshot description"](./pics/Screenshot1.jpeg)
-!["screenshot description"](./pics/Screenshot2.jpeg)
+!["snake game running"](./pics/Screenshot1.jpeg)
+!["snake saying something in game"](./pics/Screenshot2.jpeg)
 
 
 ## Getting Started
