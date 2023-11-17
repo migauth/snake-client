@@ -8,8 +8,8 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["screenshot description"](#)
-!["screenshot description"](#)
+!["screenshot description"](#Sreenshot1.jpeg)
+!["screenshot description"](#Sreenshot2.jpeg)
 
 
 ## Getting Started
@@ -17,7 +17,7 @@ Before you can run this client, you will need to be running the server side whic
 - Follow steps inside the snek server repo to run the server side
 - Run the development snake client using the `node play.js` command.
 
-### Playing the game
+## Playing the game
 
 - Press 'wasd' to move
 - W for up
