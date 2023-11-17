@@ -17,6 +17,8 @@ const connect = function () {
   // Lets player know they have connected and puts initials above snake
   conn.on("connect", () => {
     console.log("Succesfully connected to the server!");
+    console.log("Use 'wasd' to move");
+    console.log("Press ctrl C to exit at any time");
     conn.write("Name: MG");
   })
 

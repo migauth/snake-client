@@ -1,7 +1,9 @@
+const { MOVE_UP_KEY, MOVE_LEFT_KEY, MOVE_DOWN_KEY, MOVE_RIGHT_KEY, PRESS_Z, PRESS_X, PRESS_C } = require('./constants')
+
 // Global variable for input commands
 let connection;
 
-// 
+// Listens for keyboard input
 const setupInput = (conn) => {
   connection = conn;
   const stdin = process.stdin;
@@ -18,30 +20,32 @@ const handleUserInput = (key) => {
     process.exit();
   }
   if (key === '\u0077') {
-    connection.write("Move: up")
-    console.log("Snake moved up!");
+    connection.write(MOVE_UP_KEY)
   }
   if (key === '\u0061') {
-    connection.write("Move: left")
-    console.log("Snake moved left!");
+    connection.write(MOVE_LEFT_KEY)
   }
   if (key === '\u0073') {
-    connection.write("Move: down")
-    console.log("Snake moved down!");
+    connection.write(MOVE_DOWN_KEY)
   }
   if (key === '\u0064') {
-    connection.write("Move: right")
-    console.log("Snake moved right!");
+    connection.write(MOVE_RIGHT_KEY)
   }
   if (key === '\u007A') {
-    connection.write("Say: You're going down!")
+    connection.write(PRESS_Z)
   }
   if (key === '\u0078') {
-    connection.write("Say: Eat dust.")
+    connection.write(PRESS_X)
   }
   if (key === '\u0063') {
-    connection.write("Say: Get outta here!")
+    connection.write(PRESS_C)
   }
 };
+
+// const INPUT = {
+//   input: connection.write(x),
+
+// }
+
 
 module.exports = { setupInput };
