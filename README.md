@@ -1,10 +1,8 @@
 # Snake Client Project
 
-Snake game is a very popular video game. It is a video game concept where the player maneuvers a dot and grows it by ‘eating’ pieces of food. As it moves and eats, it grows and the growing snake becomes an obstacle to smooth maneuvers. The goal is to grow it to become as big as possible without bumping into the side walls, or bumping into itself, upon which it dies.
+The classic Snake game! Steer the snake towards the dot to "eat it" and grow bigger. Don't run into the sides or yourself! Grow as big as possible to win.
 
-This is simply a multiplayer take on the genre.
-
-Before you can run this client, you will need to be running the server side which you can download and install from here. 
+Before you can run this client, you will need to be running the server side which you can download and install from the link below. 
 
 ## Final Product
 
@@ -25,3 +23,4 @@ Before you can run this client, you will need to be running the server side whic
 - S for down
 - D for right
 - Press Z, X, or C to make the snake say a message
+- Have fun!
