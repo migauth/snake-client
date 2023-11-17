@@ -14,32 +14,18 @@ const connect = function () {
   // Interpret incoming data as text
   conn.setEncoding("utf8");
 
-  conn.on("data", (data) => {
-    console.log("Server says: ", data);
-  })
-
   // Lets player know they have connected and puts initials above snake
-  conn.on("connect", () =>{
+  conn.on("connect", () => {
     console.log("Succesfully connected to the server!");
-    conn.write("Name: MG");  
-    // setInterval(function() {
-    //     conn.write("Move: up");
-    //   }, 500)
+    conn.write("Name: MG");
   })
 
-
-  //conn.on("connnection", () => {
-  //  console.log("Someone connected!");
-  /**
-   * client.on("end", () => {
-   *  console.log("Someone left!")
-   * })
-   */
-  //})
-  
-  
-  
-
+  // conn.on("connnection", () => {
+  //   console.log("Someone connected!");
+  //   client.on("end", () => {
+  //     console.log("Someone left!")
+  //   })
+  // })
 
   return conn;
 };

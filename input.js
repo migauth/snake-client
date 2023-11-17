@@ -1,5 +1,7 @@
+// Global variable for input commands
 let connection;
 
+// 
 const setupInput = (conn) => {
   connection = conn;
   const stdin = process.stdin;
@@ -10,7 +12,8 @@ const setupInput = (conn) => {
   return stdin;
 };
 
-const handleUserInput = function (key) {
+// Interprets user input key commands
+const handleUserInput = (key) => {
   if (key === '\u0003') {
     process.exit();
   }
@@ -40,7 +43,5 @@ const handleUserInput = function (key) {
     connection.write("Say: Get outta here!")
   }
 };
-
-
 
 module.exports = { setupInput };
