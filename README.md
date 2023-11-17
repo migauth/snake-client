@@ -8,8 +8,8 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["screenshot description"](#Sreenshot1.jpeg)
-!["screenshot description"](#Sreenshot2.jpeg)
+!["screenshot description"](./pics/Sreenshot1.jpeg)
+!["screenshot description"](./pics/Sreenshot2.jpeg)
 
 
 ## Getting Started
