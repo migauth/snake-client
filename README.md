@@ -24,3 +24,4 @@ Before you can run this client, you will need to be running the server side whic
 - A for left
 - S for down
 - D for right
+- Press Z, X, or C to make the snake say a message

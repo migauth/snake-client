@@ -1,8 +1,8 @@
 // Import connect function
-const { connect } = require('./client')
+const { connect } = require('./client');
 
 // Improt setupInput function
-const { setupInput } = require("./input")
+const { setupInput } = require("./input");
 
 console.log("Connecting ...");
 

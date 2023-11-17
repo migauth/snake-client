@@ -2,7 +2,7 @@
 const net = require("net");
 
 // Import IP and PORT variables
-const { IP, PORT } = require("./constants")
+const { IP, PORT } = require("./constants");
 
 // Establishes a connection with the game server
 const connect = () => {
@@ -20,7 +20,7 @@ const connect = () => {
     console.log("Use 'wasd' to move");
     console.log("Press ctrl C to exit at any time");
     conn.write("Name: MG");
-  })
+  });
 
   return conn;
 };
